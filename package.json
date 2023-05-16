@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "node src/app",
-    "prestart": "git pull origin master && node -e 'setTimeout(()=>{},5000)' && node src/Generator"
+    "prestart": "node -e 'setTimeout(()=>{},5000)' && node src/Generator"
   },
   "devDependencies": {
     "eslint": "^8.24.0",
