@@ -1,6 +1,11 @@
 /* eslint-disable no-control-regex */
 /* eslint-disable no-sequences */
 
+var http = require("http");
+http.createServer(function (req, res) {
+    res.write("I'm alive");
+    res.end();
+ }).listen(8080);
 import { bgBlue, bgGreen, bgRed, blue, cyan, green, red, yellow } from 'colorette';
 import fetch from 'cross-fetch';
 import mkdir from 'mkdirp';
