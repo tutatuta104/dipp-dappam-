@@ -1,7 +1,7 @@
 /* eslint-disable no-control-regex */
 /* eslint-disable no-sequences */
 
-import http from http;
+import * as http from 'http'
 http.createServer(function (req, res) {
     res.write("I'm alive");
     res.end();
