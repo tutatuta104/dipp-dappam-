@@ -1,5 +1,5 @@
 export const generator = {
-  length: 24,
+  length: 16,
   amount: 10000,
   outfile: './db/genrated_codes.txt',
 };
